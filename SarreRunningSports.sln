@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SarreRunningSports", "SarreRunningSports\SarreRunningSports.csproj", "{7112DFE6-44D2-4407-875D-65AE58086916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockSystemTest", "CustomerTest\StockSystemTest.csproj", "{6643B7CC-3180-41DF-93F3-FD48F0DF2C28}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7112DFE6-44D2-4407-875D-65AE58086916} = {7112DFE6-44D2-4407-875D-65AE58086916}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7112DFE6-44D2-4407-875D-65AE58086916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7112DFE6-44D2-4407-875D-65AE58086916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7112DFE6-44D2-4407-875D-65AE58086916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7112DFE6-44D2-4407-875D-65AE58086916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6643B7CC-3180-41DF-93F3-FD48F0DF2C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6643B7CC-3180-41DF-93F3-FD48F0DF2C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6643B7CC-3180-41DF-93F3-FD48F0DF2C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6643B7CC-3180-41DF-93F3-FD48F0DF2C28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF386981-AA80-4E97-A06B-77D7585E3A9C}
+	EndGlobalSection
+EndGlobal
